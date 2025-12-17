@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	      body {
+	      	    background-color:sandybrown;
+	      	    font-family:Arial.sans-serif;
+	      	    text-align:center;
+	      	    margin:0;
+	      	    padding:0;
+	      	    display:flex;
+	      	    flex-direction:column;
+	      	    min-height:100vh;/*To ensures footer sticks to bottom*/
+	      }
+	      header {
+	      	    background-color: saddlebrown;
+	      	    color:lightgoldenrodyellow;/*text color*/
+	      	    padding:20px;
+	      	    text-align:center;
+	      }
+	      nav {
+	      	   margin:0;
+	      	   padding:0;
+	      }
+	      ul {
+	      	 list-style-type:none;
+	      	 margin:0;
+	      	 padding:0;
+	      	 background-color:#333333;
+	      	 display: inline-flex;
+	      	 justify-content:center;
+	      	 flex-wrap:wrap;
+	      }
+
+	      ul li a{
+	      	  display:block;
+	      	  color:white;
+	      	  padding:14px 16px;
+	      	  text-decoration:none;
+	      }
+
+	      ul li a:hover {
+              background-color:#111111;
+	      }
+
+	      main{
+	      	   flex:1;
+	      	   text-align:center;
+	      	   background-color:lightyellow;
+	      	   padding:20px;
+	      }
+
+	      footer{
+	      	    background:#444444;
+	      	    color:#FFFFFF;
+	      	    padding:20px;
+	      	    text-align:center;
+	      	    font-family:sans-serif;
+	      }
+	      /* 📸 POLAROID FRAME */
+.polaroid{
+  background: white;
+  padding: 12px 12px 40px; /* bawah lebih tebal */
+  width: 220px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 50px;     /* elak bertindan */
+  transform: rotate(-2deg);
+}
+
+/* IMAGE & VIDEO SHARED STYLE */
+.polaroid img,
+.polaroid video{
+  width: 100%;
+  aspect-ratio: 3 / 4;     /* POTRAIT */
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+.polaroid-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px; /* 🧠 NI YANG CIPTA SPACE */
+}
+
+.polaroid{
+  position: relative; /* penting untuk tape */
+}
+
+/* 🧷 TAPE CAPTION */
+.tape-caption{
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  
+  background: saddlebrown; /* brown tape */
+  padding: 6px 14px;
+  
+  font-family: 'cursive;', monospace;
+  font-size: 12px;
+  color: lightyellow;
+  
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  opacity: 0.95;
+  white-space: nowrap;
+}
+
+/* rough tape edges */
+.tape-caption::before,
+.tape-caption::after{
+  content:"";
+  position:absolute;
+  top:0;
+  width:8px;
+  height:100%;
+  background:rgba(255,255,255,0.25);
+}
+
+.tape-caption::before{ left:-6px; }
+.tape-caption::after{ right:-6px; }
+
+	  </style>
+	<title>Experience</title>
+</head> <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+<body>
+<header>
+	<h1><b>˖⚝₊⊹ 𝓣𝓱𝓮 𝓛𝓲𝓽𝓽𝓵𝓮 𝓤𝓷𝓲𝓿𝓮𝓻𝓼𝓮 𝓸𝓯 𝓡𝓾𝔃𝓪𝓲𝓷𝓲 𖤐⭒๋⭑₊⁺</b></h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html">𝑯𝒐𝒎𝒆</a></li>
+		<li><a href="aboutme.html">𝑨𝒃𝒐𝒖𝒕 𝑴𝒆</a></li>
+		<li><a href="experience.html">𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆</a></li>
+		<li><a href="education.html">𝑬𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏</a></li>
+		<li><a href="family.html">𝑭𝒂𝒎𝒊𝒍𝒚</a></li>
+		<li><a href="friends.html">𝑭𝒓𝒊𝒆𝒏𝒅𝒔</a></li>
+		<li><a href="favourites.html">𝑭𝒂𝒗𝒐𝒖𝒓𝒊𝒕𝒆𝒔</a></li>
+		<li><a href="gallery.html">𝑮𝒂𝒍𝒍𝒆𝒓𝒚</a></li>
+	</ul>
+</nav>
+<main>
+	<h2>ℳ𝓎 ℰ𝓍𝓅ℯ𝓇𝒾ℯ𝓃𝒸ℯ</h2>
+		<section class="diary-wrapper">
+  <div class="paper">
+    <p>
+      𝘐 𝘴𝘵𝘪𝘭𝘭 𝘵𝘩𝘪𝘯𝘬 𝘢𝘣𝘰𝘶𝘵 𝘮𝘺 𝘵𝘪𝘮𝘦 𝘷𝘰𝘭𝘶𝘯𝘵𝘦𝘦𝘳𝘪𝘯𝘨 𝘥𝘶𝘳𝘪𝘯𝘨 𝘗𝘦𝘴𝘵𝘢 𝘉𝘶𝘬𝘶 𝘴𝘰𝘮𝘦𝘵𝘪𝘮𝘦𝘴. 𝘐𝘵 𝘸𝘢𝘴𝘯’𝘵 𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨 𝘣𝘪𝘨 𝘰𝘳 𝘧𝘭𝘢𝘴𝘩𝘺, 𝘣𝘶𝘵 𝘵𝘩𝘦 𝘭𝘪𝘵𝘵𝘭𝘦 𝘵𝘩𝘪𝘯𝘨𝘴 𝘐 𝘥𝘪𝘥 — 𝘵𝘩𝘦 𝘰𝘯𝘦𝘴 𝘱𝘦𝘰𝘱𝘭𝘦 𝘰𝘧𝘵𝘦𝘯 𝘥𝘰𝘯’𝘵 𝘯𝘰𝘵𝘪𝘤𝘦 — 𝘮𝘦𝘢𝘯𝘵 𝘢 𝘭𝘰𝘵 𝘵𝘰 𝘮𝘦. 
+
+      <br><br> 𝘏𝘦𝘭𝘱𝘪𝘯𝘨 𝘰𝘶𝘵 𝘲𝘶𝘪𝘦𝘵𝘭𝘺, 𝘮𝘢𝘬𝘪𝘯𝘨 𝘴𝘶𝘳𝘦 𝘵𝘩𝘪𝘯𝘨𝘴 𝘸𝘦𝘳𝘦 𝘪𝘯 𝘱𝘭𝘢𝘤𝘦, 𝘣𝘦𝘪𝘯𝘨 𝘶𝘴𝘦𝘧𝘶𝘭 𝘪𝘯 𝘴𝘮𝘢𝘭𝘭 𝘸𝘢𝘺𝘴. 𝘛𝘩𝘰𝘴𝘦 𝘮𝘰𝘮𝘦𝘯𝘵𝘴 𝘵𝘢𝘶𝘨𝘩𝘵 𝘮𝘦 𝘵𝘩𝘢𝘵 𝘯𝘰𝘵 𝘦𝘷𝘦𝘳𝘺 𝘮𝘦𝘢𝘯𝘪𝘯𝘨𝘧𝘶𝘭 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘩𝘢𝘴 𝘵𝘰 𝘣𝘦 𝘭𝘰𝘶𝘥 𝘵𝘰 𝘮𝘢𝘵𝘵𝘦𝘳.  𝘉𝘦𝘪𝘯𝘨 𝘵𝘩𝘦𝘳𝘦 𝘨𝘢𝘷𝘦 𝘮𝘦 𝘢 𝘴𝘦𝘯𝘴𝘦 𝘰𝘧 𝘳𝘦𝘴𝘱𝘰𝘯𝘴𝘪𝘣𝘪𝘭𝘪𝘵𝘺 𝘢𝘯𝘥 𝘢𝘱𝘱𝘳𝘦𝘤𝘪𝘢𝘵𝘪𝘰𝘯 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘦𝘧𝘧𝘰𝘳𝘵 𝘣𝘦𝘩𝘪𝘯𝘥 𝘵𝘩𝘦 𝘴𝘤𝘦𝘯𝘦𝘴. 𝘐𝘵’𝘴 𝘢𝘯 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘐 𝘥𝘰𝘯’𝘵 𝘸𝘢𝘯𝘵 𝘵𝘰 𝘧𝘰𝘳𝘨𝘦𝘵, 𝘣𝘦𝘤𝘢𝘶𝘴𝘦 𝘪𝘵 𝘴𝘩𝘢𝘱𝘦𝘥 𝘵𝘩𝘦 𝘸𝘢𝘺 𝘐 𝘴𝘦𝘦 𝘸𝘰𝘳𝘬, 𝘵𝘦𝘢𝘮𝘸𝘰𝘳𝘬, 𝘢𝘯𝘥 𝘤𝘰𝘯𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯. 
+
+      <br><br>
+
+      𝘐𝘯 𝘵𝘩𝘦 𝘧𝘶𝘵𝘶𝘳𝘦, 𝘐 𝘩𝘰𝘱𝘦 𝘐 𝘨𝘦𝘵 𝘵𝘰 𝘣𝘦 𝘱𝘢𝘳𝘵 𝘰𝘧 𝘮𝘰𝘳𝘦 𝘮𝘦𝘢𝘯𝘪𝘯𝘨𝘧𝘶𝘭 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦𝘴 𝘭𝘪𝘬𝘦 𝘵𝘩𝘪𝘴, 𝘦𝘴𝘱𝘦𝘤𝘪𝘢𝘭𝘭𝘺 𝘪𝘯 𝘤𝘰𝘮𝘮𝘶𝘯𝘪𝘵𝘺 𝘴𝘦𝘳𝘷𝘪𝘤𝘦 𝘰𝘳 𝘴𝘰𝘤𝘪𝘢𝘭 𝘸𝘦𝘭𝘧𝘢𝘳𝘦 𝘸𝘰𝘳𝘬, 𝘸𝘩𝘦𝘳𝘦 𝘐 𝘤𝘢𝘯 𝘨𝘪𝘷𝘦 𝘣𝘢𝘤𝘬, 𝘭𝘦𝘢𝘳𝘯 𝘧𝘳𝘰𝘮 𝘱𝘦𝘰𝘱𝘭𝘦, 𝘢𝘯𝘥 𝘨𝘳𝘰𝘸 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘩𝘦𝘭𝘱𝘪𝘯𝘨 𝘰𝘵𝘩𝘦𝘳𝘴 𝘪𝘯 𝘴𝘪𝘮𝘱𝘭𝘦, 𝘴𝘪𝘯𝘤𝘦𝘳𝘦 𝘸𝘢𝘺𝘴.
+    </p>
+  </div>
+</section>
+
+
+<div class="polaroid">
+  <img src="URUSSETIA PB.jpeg" alt="picture 1">
+  <div class="polaroid-caption">𝙶𝚘𝚝 𝚊𝚗 𝙾𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚢 𝚝𝚘 𝙷𝚊𝚗𝚍𝚕𝚎 𝚜𝚞𝚌𝚑 𝙱𝙸𝙶 𝚎𝚟𝚎𝚗𝚝 𝚒𝚗 𝙺𝚎𝚕𝚊𝚗𝚝𝚊𝚗 𝚍𝚞𝚛𝚒𝚗𝚐 𝚒𝚗𝚝𝚎𝚛𝚗𝚜𝚑𝚒𝚙</div>
+  <div class="tape-caption">𝑽𝒐𝒍𝒖𝒏𝒕𝒆𝒆𝒓𝒊𝒏𝒈</div>
+</div>
+
+<div class="polaroid">
+  <img src="ALPACA.jpeg" alt="picture 2">
+  <div class="polaroid-caption"></div>
+  <div class="polaroid-caption">𝕄𝕖𝕥 𝔸𝕝𝕡𝕒𝕔𝕒 𝕗𝕠𝕣 𝕥𝕙𝕖 𝕗𝕚𝕣𝕤𝕥 𝕥𝕚𝕞𝕖 𝕃𝕆𝕃</div>
+  <div class="tape-caption">𝓐𝓵𝓹𝓪𝓬𝓪</div>
+</div>
+
+<div class="polaroid">
+  <img src="on flight 2.jpeg" alt="picture 3">
+  <div class="polaroid-caption">𝓣𝓱𝓲𝓼 𝓸𝓷𝓮 𝓬𝓸𝓾𝓷𝓽𝓼 𝓬𝓾𝔃 𝔀𝓱𝔂 𝓷𝓸𝓽 <3</div>
+  <div class="tape-caption">𝖀𝖕 𝖎𝖓 𝕿𝖍𝖊 𝕾𝖐𝖞</div>
+</div>
+
+</main>
+    <footer>
+    	<p>&copy;2025 This website is for educational purpose only | Ruzaini Akmal binti Mohd Razi</p>
+    </footer>
+</body>
+</html>

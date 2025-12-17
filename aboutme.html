@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>About Me</title>
+  <style>
+/* ===== GENERAL ===== */
+body{
+  background-color:sandybrown;
+  font-family:Arial, sans-serif;
+  text-align:center;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+header{
+  background-color:saddlebrown;
+  color:lightgoldenrodyellow;
+  padding:20px;
+}
+
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  background:#333;
+  display:inline-flex;
+  flex-wrap:wrap;
+}
+
+ul li a{
+  color:white;
+  padding:14px 16px;
+  text-decoration:none;
+  display:block;
+}
+
+ul li a:hover{
+  background:#111;
+}
+
+main{
+  flex:1;
+  background:lightyellow;
+  padding:40px;
+}
+
+/* ===== DIARY BOOK ONLY ===== */
+.diary-book{
+  display:flex;
+  max-width:900px;
+  margin:0 auto;
+  background:#6b4423;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 25px 45px rgba(0,0,0,0.4);
+}
+
+.diary-book{
+  position: relative;
+  display:flex;
+  max-width:900px;
+  margin:0 auto;
+  background:#5a3216; /* lebih gelap sikit */
+  padding:28px;
+  border-radius:20px;
+  box-shadow:0 30px 50px rgba(0,0,0,0.45);
+}
+
+.diary-book::before{
+  content:"";
+  width:10px;                 /* TEBAL SIKIT */
+  background:linear-gradient(
+    to right,
+    #3e2614,
+    #2a170c,
+    #3e2614
+  );
+  border-radius:10px;
+}
+.diary-book{
+  position: relative; /* WAJIB */
+}
+
+/* 🧸 TEDDY BEAR */
+.diary-teddy{
+  position:absolute;
+  top:-145px;                 /* keluar lebih */
+  left:50%;
+  transform:translateX(-50%);
+  width:325px;               /* BESAR JELAS */
+  z-index:25;
+  pointer-events:none;
+
+}
+
+.diary-page{
+  width:50%;
+  background:#f7f1e8;
+  padding:35px;
+  margin:8px;
+  border-radius:14px;
+  line-height:1.9;
+  font-family:Georgia, serif;
+  color:#4b2e1e;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.1);
+  .diary-page:first-child{
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+.diary-page:last-child{
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+
+}
+
+.diary-page h2{
+  text-align:center;
+  font-style:italic;
+  margin-bottom:20px;
+}
+
+.diary-sign{
+  text-align:right;
+  margin-top:35px;
+  font-style:italic;
+}
+
+footer{
+  background:#444;
+  color:#fff;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+<header>
+	<h1><b>˖⚝₊⊹ 𝓣𝓱𝓮 𝓛𝓲𝓽𝓽𝓵𝓮 𝓤𝓷𝓲𝓿𝓮𝓻𝓼𝓮 𝓸𝓯 𝓡𝓾𝔃𝓪𝓲𝓷𝓲 𖤐⭒๋⭑₊⁺</b></h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html">𝑯𝒐𝒎𝒆</a></li>
+		<li><a href="aboutme.html">𝑨𝒃𝒐𝒖𝒕 𝑴𝒆</a></li>
+		<li><a href="experience.html">𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆</a></li>
+		<li><a href="education.html">𝑬𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏</a></li>
+		<li><a href="family.html">𝑭𝒂𝒎𝒊𝒍𝒚</a></li>
+		<li><a href="friends.html">𝑭𝒓𝒊𝒆𝒏𝒅𝒔</a></li>
+		<li><a href="favourites.html">𝑭𝒂𝒗𝒐𝒖𝒓𝒊𝒕𝒆𝒔</a></li>
+		<li><a href="gallery.html">𝑮𝒂𝒍𝒍𝒆𝒓𝒚</a></li>
+	</ul>
+</nav>
+<main>
+	<div class="diary-book">
+
+  <!-- 🧸 TEDDY BEAR -->
+  <img src="bear 3.png" class="diary-teddy" alt="teddy bear">
+
+  <!-- LEFT PAGE -->
+  <div class="diary-page">
+
+    
+    <h2>𝓗𝓮𝓵𝓵𝓸 𝓽𝓱𝓮𝓻𝓮!</h2>
+    <p>
+     𝙸’𝚖 𝚁𝚞𝚣𝚊𝚒𝚗𝚒 𝙰𝚔𝚖𝚊𝚕 𝚋𝚒𝚗𝚝𝚒 𝙼𝚘𝚑𝚍 𝚁𝚊𝚣𝚒, 𝚝𝚑𝚘𝚞𝚐𝚑 𝚖𝚘𝚜𝚝 𝚙𝚎𝚘𝚙𝚕𝚎 𝚔𝚗𝚘𝚠 𝚖𝚎 𝚊𝚜 𝙹𝚊𝚢𝚗𝚎𝚎. 𝙸 𝚊𝚖 20 𝚢𝚎𝚊𝚛𝚜 𝚘𝚕𝚍 𝚊𝚗𝚍 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚙𝚞𝚛𝚜𝚞𝚒𝚗𝚐 𝚊 𝙳𝚒𝚙𝚕𝚘𝚖𝚊 𝚒𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚊𝚝 𝚄𝚒𝚃𝙼 𝙲𝚊𝚠𝚊𝚗𝚐𝚊𝚗 𝙺𝚎𝚕𝚊𝚗𝚝𝚊𝚗, 𝙺𝚊𝚖𝚙𝚞𝚜 𝙼𝚊𝚌𝚑𝚊𝚗𝚐.
+    </p>
+    <p>
+    𝙸 𝚎𝚗𝚓𝚘𝚢 𝚠𝚊𝚛𝚖 𝚌𝚘𝚖𝚙𝚊𝚗𝚢 𝚊𝚗𝚍 𝚖𝚎𝚊𝚗𝚒𝚗𝚐𝚏𝚞𝚕 𝚖𝚘𝚖𝚎𝚗𝚝𝚜, 𝚎𝚜𝚙𝚎𝚌𝚒𝚊𝚕𝚕𝚢 𝚠𝚑𝚎𝚗 𝙸 𝚐𝚎𝚝 𝚝𝚘 𝚜𝚙𝚎𝚗𝚍 𝚝𝚒𝚖𝚎 𝚠𝚒𝚝𝚑 𝚖𝚢 𝚏𝚊𝚖𝚒𝚕𝚢 𝚊𝚗𝚍 𝚌𝚕𝚘𝚜𝚎 𝚏𝚛𝚒𝚎𝚗𝚍𝚜. 𝚆𝚑𝚎𝚝𝚑𝚎𝚛 𝚒𝚝’𝚜 𝚑𝚊𝚟𝚒𝚗𝚐 𝚌𝚘𝚏𝚏𝚎𝚎 𝚝𝚘𝚐𝚎𝚝𝚑𝚎𝚛 𝚘𝚛 𝚜𝚒𝚖𝚙𝚕𝚢 𝚝𝚊𝚕𝚔𝚒𝚗𝚐 𝚊𝚋𝚘𝚞𝚝 𝚝𝚑𝚒𝚗𝚐𝚜 𝚝𝚑𝚊𝚝 𝚖𝚊𝚔𝚎 𝚞𝚜 𝚏𝚎𝚎𝚕 𝚞𝚗𝚍𝚎𝚛𝚜𝚝𝚘𝚘𝚍, 𝚝𝚑𝚎𝚜𝚎 𝚖𝚘𝚖𝚎𝚗𝚝𝚜 𝚋𝚛𝚒𝚗𝚐 𝚖𝚎 𝚌𝚘𝚖𝚏𝚘𝚛𝚝 𝚊𝚗𝚍 𝚑𝚊𝚙𝚙𝚒𝚗𝚎𝚜𝚜.
+    </p>
+    <p>
+      𝙱𝚎𝚌𝚊𝚞𝚜𝚎 𝙸 𝚟𝚊𝚕𝚞𝚎 𝚝𝚑𝚎𝚜𝚎 𝚜𝚖𝚊𝚕𝚕 𝚢𝚎𝚝 𝚖𝚎𝚊𝚗𝚒𝚗𝚐𝚏𝚞𝚕 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎𝚜, 𝙸’𝚖 𝚗𝚊𝚝𝚞𝚛𝚊𝚕𝚕𝚢 𝚍𝚛𝚊𝚠𝚗 𝚝𝚘 𝚌𝚊𝚙𝚝𝚞𝚛𝚒𝚗𝚐 𝚝𝚑𝚎𝚖. 𝙿𝚑𝚘𝚝𝚘𝚐𝚛𝚊𝚙𝚑𝚢, 𝚝𝚘 𝚖𝚎, 𝚒𝚜 𝚊 𝚠𝚊𝚢 𝚘𝚏 𝚙𝚛𝚎𝚜𝚎𝚛𝚟𝚒𝚗𝚐 𝚑𝚘𝚠 𝚖𝚘𝚖𝚎𝚗𝚝𝚜 𝚏𝚎𝚎𝚕 𝚛𝚊𝚝𝚑𝚎𝚛 𝚝𝚑𝚊𝚗 𝚑𝚘𝚠 𝚝𝚑𝚎𝚢 𝚕𝚘𝚘𝚔 — 𝚊 𝚚𝚞𝚒𝚎𝚝 𝚌𝚘𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚖𝚎𝚖𝚘𝚛𝚒𝚎𝚜 𝚏𝚛𝚘𝚖 𝚎𝚟𝚎𝚛𝚢𝚍𝚊𝚢 𝚕𝚒𝚏𝚎.
+    </p>
+
+  </div>
+
+  <div class="diary-page">
+    
+    <p>𝙸𝚗 𝚝𝚑𝚎 𝚏𝚞𝚝𝚞𝚛𝚎, 𝙸 𝚑𝚘𝚙𝚎 𝚝𝚘 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚎 𝚖𝚢 𝚜𝚝𝚞𝚍𝚒𝚎𝚜 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚊𝚗𝚍 𝚘𝚙𝚎𝚗 𝚊 𝚜𝚖𝚊𝚕𝚕, 𝚌𝚘𝚣𝚢 𝚌𝚊𝚏é 𝚝𝚑𝚊𝚝 𝚜𝚎𝚛𝚟𝚎𝚜 𝚐𝚘𝚘𝚍 𝚌𝚘𝚏𝚏𝚎𝚎 𝚊𝚗𝚍 𝚌𝚘𝚖𝚏𝚘𝚛𝚝𝚒𝚗𝚐 𝚙𝚊𝚜𝚝𝚛𝚒𝚎𝚜, 𝚠𝚒𝚝𝚑 𝚊𝚗 𝚊𝚝𝚖𝚘𝚜𝚙𝚑𝚎𝚛𝚎 𝚝𝚑𝚊𝚝 𝚏𝚎𝚎𝚕𝚜 𝚐𝚎𝚗𝚝𝚕𝚎 𝚊𝚗𝚍 𝚠𝚎𝚕𝚌𝚘𝚖𝚒𝚗𝚐. 𝙼𝚘𝚛𝚎 𝚝𝚑𝚊𝚗 𝚊𝚗𝚢𝚝𝚑𝚒𝚗𝚐, 𝙸 𝚠𝚒𝚜𝚑 𝚝𝚘 𝚝𝚛𝚊𝚟𝚎𝚕 𝚊𝚗𝚍 𝚙𝚎𝚛𝚏𝚘𝚛𝚖 𝚄𝚖𝚛𝚊𝚑 𝚠𝚒𝚝𝚑 𝚖𝚢 𝚏𝚊𝚖𝚒𝚕𝚢 𝚊𝚗𝚍 𝚔𝚎𝚎𝚙 𝚝𝚑𝚎𝚖 𝚌𝚕𝚘𝚜𝚎 𝚝𝚑𝚛𝚘𝚞𝚐𝚑𝚘𝚞𝚝 𝚖𝚢 𝚕𝚒𝚏𝚎, 𝚊𝚜 𝚝𝚑𝚎𝚢 𝚊𝚛𝚎 𝚖𝚢 𝚜𝚊𝚏𝚎𝚜𝚝 𝚙𝚕𝚊𝚌𝚎 𝚊𝚗𝚍 𝚝𝚑𝚎 𝚝𝚛𝚞𝚎𝚜𝚝 𝚕𝚘𝚟𝚎 𝙸 𝚔𝚗𝚘𝚠.
+    </p>
+    <P>
+    𝙰𝚕𝚝𝚑𝚘𝚞𝚐𝚑 𝙸 𝚖𝚊𝚢 𝚊𝚙𝚙𝚎𝚊𝚛 𝚌𝚊𝚕𝚖 𝚊𝚝 𝚏𝚒𝚛𝚜𝚝, 𝙸 𝚊𝚖 𝚊𝚌𝚝𝚞𝚊𝚕𝚕𝚢 𝚙𝚕𝚊𝚢𝚏𝚞𝚕 𝚊𝚗𝚍 𝚊 𝚕𝚒𝚝𝚝𝚕𝚎 𝚜𝚒𝚕𝚕𝚢 𝚊𝚛𝚘𝚞𝚗𝚍 𝚝𝚑𝚎 𝚙𝚎𝚘𝚙𝚕𝚎 𝙸 𝚏𝚎𝚎𝚕 𝚌𝚘𝚖𝚏𝚘𝚛𝚝𝚊𝚋𝚕𝚎 𝚠𝚒𝚝𝚑. 
+    </P>
+    <div class="diary-sign">
+      <br>✧ 𝓡𝓾𝔃𝓪𝓲𝓷𝓲 ✧
+    </div>
+  </div>
+
+</div>
+
+</main>
+    <footer>
+    	<p>&copy;2025 This website is for educational purpose only | Ruzaini Akmal binti Mohd Razi</p>
+    </footer>
+</body>
+</html>
